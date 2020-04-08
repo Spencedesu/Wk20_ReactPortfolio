@@ -7,11 +7,12 @@ import Main from "./components/Main"
 
 function App() {
   return (
+    
     <div className="demo-big-content">
     <Layout>
         <Header className="header-color" title="Spencer Purcell" scroll>
             <Navigation>
-                <Link to="/resume">Resume</Link>
+                <Link to="/">MainPage</Link>
                 <Link to="/about">About</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
