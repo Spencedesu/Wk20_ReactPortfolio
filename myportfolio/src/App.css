@@ -1,3 +1,9 @@
+.about-page-right{
+  background: #27221f;
+  color: rgb(113, 121, 167);
+  
+}
+
 .header-color {
   background: #8E2DE2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
@@ -50,8 +56,8 @@
 
 .contact-body {
   margin: auto;
-  background: indigo;
   position: fixed;
+  background: lavender;
   height: 100%;
   width: 100%;
   padding-top: 2em;
@@ -62,7 +68,7 @@
   width: 80%;
   height: 600px;
   background: lavender;
-  border: 2px solid red;
+  
   margin-bottom: 20px;
 }
 .contact-grid h2 {
