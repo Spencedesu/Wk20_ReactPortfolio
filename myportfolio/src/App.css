@@ -46,9 +46,37 @@
   font-size: 20px;
   padding: 1em;
   text-align: center;
-
 }
 
+.contact-body {
+  margin: auto;
+  background: indigo;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  padding-top: 2em;
+}
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 600px;
+  background: lavender;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+.contact-grid h2 {
+  font-family: "Oswald", sans-serif;
+}
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.contact-list i{
+ font-size: 65px;
+ padding-right: 2em;
+}
 .social-links {
   display: flex;
   justify-content: space-between;
@@ -64,3 +92,4 @@
 .projects-grid {
   display: flex;
 }
+
