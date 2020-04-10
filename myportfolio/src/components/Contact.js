@@ -1,6 +1,7 @@
 import React, { Component} from "react";
 import {Grid, Cell, ListItem, List, ListItemContent } from "react-mdl";
 import "../images/coolBoyz.jpg";
+import Footerr from "./Footerr";
 
 
 
@@ -44,9 +45,13 @@ class Contact extends Component{
               </ListItem>
             </List>
           </div>
+          
         </Cell>
+        
       </Grid>
+      
       </div>
+      
     )}
 }
 

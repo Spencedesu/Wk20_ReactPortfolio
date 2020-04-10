@@ -1,5 +1,6 @@
 import React, { Component} from "react";
 import {Cell, Grid} from "react-mdl";
+import Footerr from "./Footerr"
 
 
 class LandingPage extends Component{
@@ -31,6 +32,7 @@ class LandingPage extends Component{
         </Cell>
 
       </Grid>
+      <Footerr/>
     </div>
     )}
 }

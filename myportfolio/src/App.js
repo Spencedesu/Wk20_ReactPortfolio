@@ -4,6 +4,7 @@ import { Layout, Header, Navigation, Drawer, Content} from "react-mdl";
 //import Main from "./components/Main";
 import {Link} from "react-router-dom";
 import Main from "./components/Main"
+import Footerr from './components/Footerr';
 
 function App() {
   return (
@@ -30,7 +31,9 @@ function App() {
             <div className="page-content" />
             <Main/>
         </Content>
+        <Footerr/>
     </Layout>
+    
 </div>
   );
 }

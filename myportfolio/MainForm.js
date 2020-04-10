@@ -3,6 +3,7 @@ import {Container, Image} from "";
 import { TextArea , Input, Form} from "semantic-ui-react";
 import APi from "../utils/APi";
 
+// Look at this stuff particularly !! //
 function Form(){
 const [postedPost, setPostedPost] = useState([])
 const [post, setPost] = useState({
