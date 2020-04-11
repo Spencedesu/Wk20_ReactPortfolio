@@ -1,5 +1,6 @@
 import React, { Component} from "react";
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, Button, CardMenu, IconButton, CardText, CardActions} from "react-mdl";
+import FoodApp from "../images/PortlandCuisine.jpeg"
 
 
 class Projects extends Component{
@@ -101,13 +102,13 @@ class Projects extends Component{
 
       <Card shadow={5} style={{minWidth: "450", margin: "auto"}}>
         <CardTitle style={{color: "white", height: "176px", background:
-        'url(https://media3.s-nbcnews.com/j/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-760w.jpg) center / cover'}}>Google Books Search App</CardTitle>
+        'url(https://image.shutterstock.com/image-photo/collage-various-food-products-260nw-712964140.jpg) center / cover'}}>Portland Food App</CardTitle>
       <CardText>
-        An App for searching the google books api, displays the results, and allows the user to save results to a reading list.
+        Search for local Portland spots to grab a bite.
       </CardText>
       <CardActions border>
-        <Button href="https://github.com/Spencedesu/Google_Book_SearchHW21"colored target="_blank">Github</Button>
-        <Button colored>Deployed App</Button>
+        <Button href=""colored target="_blank">Github</Button>
+        <Button href ="https://tcanbolat.github.io/Portland-Food-App/"colored>Deployed App</Button>
       </CardActions>
       <CardMenu style={{color: "#fff"}}>
         <IconButton name="share"/>
