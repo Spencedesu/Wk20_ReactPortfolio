@@ -14,7 +14,7 @@ class About extends Component{
             style={{height: "300px"}}/>
           </div>
           <h2 style={{paddingTop: "2em"}}>Spencer Purcell</h2>
-          <h2 style={{color: "grey", fontSize:"30px"}}>Programming student</h2>
+          <h2 style={{color: "grey", fontSize:"30px"}}>Full-stack Web Development</h2>
           <hr style={{borderTop: "3px solid #833fb2", width: "50%"}}/>
           <p> Hey everyone, my name is Spencer Purcell, and thanks for checking out my portfolio site.
              I am currently attending Univeristy of Oregon's Coding Bootcamp, where we have covered a full stack of Programming technologies.
@@ -32,7 +32,7 @@ class About extends Component{
               </p>
         </Cell>
         <Cell className="about-page-right" col={8}>
-          <h2> Education</h2>
+          <h2> Education:</h2>
           <Educaton/>
           <img alt="coolboyz" src={require("../images/coolBoyz.jpg")}
         style={{height: "500px", textAlign: "center"}}/>

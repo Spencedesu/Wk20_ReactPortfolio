@@ -21,12 +21,12 @@ class LandingPage extends Component{
             <a href="https://github.com/Spencedesu" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-github"  aria-hidden="true"/>
             </a>
-              <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+              <a href="https://www.linkedin.com/in/spencer-purcell-b40603191/" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-linkedin"  aria-hidden="true"/>
             </a>
-              <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-              <i className="fa fa-free-code-camp"  aria-hidden="true"/>
-            </a>
+              {/* <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+              <i className="fa fa-scroll"  aria-hidden="true"/> */}
+            {/* </a> */}
             </div>
           </div>
         </Cell>

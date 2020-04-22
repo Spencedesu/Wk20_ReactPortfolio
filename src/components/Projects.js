@@ -22,7 +22,22 @@ class Projects extends Component{
       </CardText>
       <CardActions border>
         <Button href="https://github.com/Spencedesu/Google_Book_SearchHW21"colored target="_blank">Github</Button>
-        <Button colored target="_blank">Deployed App</Button>
+        <Button href="https://github.com/Spencedesu/Google_Book_SearchHW21"colored target="_blank">Deployed App</Button>
+      </CardActions>
+      <CardMenu style={{color: "#fff"}}>
+        <IconButton name="share"/>
+      </CardMenu>
+      </Card>
+
+      <Card shadow={5} style={{minWidth: "450", margin: "auto"}}>
+        <CardTitle style={{color: "white", height: "176px", background:
+        'url(https://assets.entrepreneur.com/content/3x2/2000/20160915213625-GettyImages-506827008.jpeg) center / cover'}}>Service Staff Strike Back (Project 3)</CardTitle>
+      <CardText>
+        Forum application, to allow service-industry folks, to share stories, 
+      </CardText>
+      <CardActions border>
+        <Button href="https://https://github.com/Spencedesu/ServiceStaffStrikeBack.com/"colored target="_blank">Github</Button>
+        <Button href="https://still-cove-82320.herokuapp.com/"colored target="_blank">Deployed App</Button>
       </CardActions>
       <CardMenu style={{color: "#fff"}}>
         <IconButton name="share"/>
@@ -80,20 +95,7 @@ class Projects extends Component{
     </CardMenu>
     </Card>
 
-    <Card shadow={5} style={{minWidth: "450", margin: "auto"}}>
-    <CardTitle style={{color: "white", height: "176px", background:
-    'url(https://www.rd.com/wp-content/uploads/2019/12/book-e1576790089347.jpg) center / cover'}}>Google Books Search App</CardTitle>
-  <CardText>
-    An App for searching the google books api, displays the results, and allows the user to save results to a reading list.
-  </CardText>
-  <CardActions border>
-    <Button href="https://github.com/Spencedesu/Google_Book_SearchHW21"colored target="_blank">Github</Button>
-    <Button colored>Deployed App</Button>
-  </CardActions>
-  <CardMenu style={{color: "#fff"}}>
-    <IconButton name="share"/>
-  </CardMenu>
-  </Card>
+    
   </div>
     )
   } else if(this.state.activeTab === 2) {
